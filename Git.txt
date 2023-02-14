@@ -1,0 +1,20 @@
+dir
+git -v
+git init
+git status
+git add a.txt
+git status
+git config --global user.email "dhalsubhashree1999@gmail.com"
+git config --global user.name "Subhashree"
+git commit -m "created a file a"
+git status
+git log
+git add a.txt
+git status
+git commit -m "updated file a"
+git status
+git log
+git branch
+git branch dev
+git checkout dev
+git merge dev
